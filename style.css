@@ -1386,7 +1386,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.badge-aws { background: rgba(255, 153, 0, 0.15); border: 1px solid rgba(255, 153, 0, 0.4); color: #ff9900; }
 .badge-ibm { background: rgba(15, 98, 254, 0.15); border: 1px solid rgba(15, 98, 254, 0.4); color: #38bdf8; }
 .badge-edubridge { background: rgba(242, 29, 139, 0.15); border: 1px solid rgba(242, 29, 139, 0.4); color: var(--accent-pink); }
 .badge-tata { background: rgba(0, 114, 206, 0.15); border: 1px solid rgba(0, 114, 206, 0.4); color: #60a5fa; }
