@@ -98,12 +98,15 @@ MyPortfolio/
 │   └── profile.jpg             # High-resolution profile portrait
 ├── .gitignore                  # Git ignore rules for clean repo hygiene
 ├── CONTRIBUTING.md             # Contribution guidelines
+├── app.py                      # Optional Flask web server & local API runner
+├── requirements.txt            # Python dependencies (Flask)
 ├── Dhanushree_VM_Resume.pdf    # Direct download link fallback
 ├── favicon.svg                 # Custom gradient SVG code favicon
 ├── index.html                  # Main portfolio website structure & content
 ├── LICENSE                     # MIT License
 ├── README.md                   # Repository documentation & guide
-└── style.css                   # Custom styles, theme variables & animations
+├── script.js                   # Interactive sandbox, scrollspy & UI logic
+└── style.css                   # Cyber neon design system & responsive CSS
 ```
 
 ---
@@ -138,23 +141,17 @@ This portfolio includes verified certifications demonstrating continuous learnin
 
 ## 💻 Getting Started Locally
 
-You can run this project locally without any complex build tools or dependencies:
+You can run this project locally in two ways:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Dhanushree-1977/MyPortfolio.git
-   cd MyPortfolio
-   ```
+### Option A: Using the Python Flask Server (Recommended)
+```bash
+pip install -r requirements.txt
+python app.py
+```
+Then open your browser to **http://127.0.0.1:5000**.
 
-2. **Open with any modern web browser:**
-   - Double-click `index.html` to open it in your default browser.
-   - Or serve with VS Code **Live Server** extension:
-     - Right click `index.html` → **Open with Live Server**.
-   - Or serve with Python's built-in HTTP server:
-     ```bash
-     python -m http.server 8000
-     ```
-     Then navigate to `http://localhost:8000` in your browser.
+### Option B: Standalone Static Browser
+Double-click `index.html` to open it in your browser, or serve with VS Code **Live Server** extension.
 
 ---
 

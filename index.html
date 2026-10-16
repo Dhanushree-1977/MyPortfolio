@@ -3,319 +3,980 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhanushree V M | Portfolio</title>
-    <meta name="description" content="Portfolio of Dhanushree V M - Aspiring Software Developer specializing in Python, Java, Web Technologies, and Machine Learning.">
-    <meta name="keywords" content="Dhanushree V M, Software Developer, Portfolio, Python, Java, Web Development, Full Stack, Machine Learning">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dhanushree V M | Software Developer &amp; ML Enthusiast</title>
+    <meta name="description" content="Portfolio of Dhanushree V M — Aspiring Software Developer & Machine Learning Enthusiast based in Bangalore, Karnataka. Specializing in Python, Java, Web Technologies, and AI/NLP.">
+    <meta name="keywords" content="Dhanushree V M, Software Developer, Machine Learning, Python, Java, Django, SQL, Bangalore, Portfolio">
     <meta name="author" content="Dhanushree V M">
 
-    <!-- Open Graph / Facebook / LinkedIn -->
+    <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Dhanushree V M | Aspiring Software Developer Portfolio">
-    <meta property="og:description" content="Turning ideas into impactful solutions through clean and efficient code. Explore my projects, skills, and background.">
+    <meta property="og:title" content="Dhanushree V M — Software Developer Portfolio">
+    <meta property="og:description" content="Turning ideas into impactful solutions through clean code, scalable architecture, and intelligent machine learning.">
     <meta property="og:image" content="images/profile.jpg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dhanushree V M | Aspiring Software Developer">
-    <meta name="twitter:description" content="Explore my portfolio showcasing projects, skills, and achievements in software engineering.">
+    <meta name="twitter:title" content="Dhanushree V M — Developer Portfolio">
+    <meta name="twitter:description" content="Aspiring Software Developer passionate about problem-solving, algorithms, and AI solutions.">
     <meta name="twitter:image" content="images/profile.jpg">
 
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts & Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-animation">
-        <div id="stars"></div><div id="stars2"></div><div id="stars3"></div>
-    </div>
+    <!-- Ambient Animated Glow Lights -->
+    <div class="ambient-glow glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow glow-2" aria-hidden="true"></div>
+    <div class="ambient-glow glow-3" aria-hidden="true"></div>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo"><span class="code-icon">&lt;/&gt;</span> Dhanushree <span class="highlight">V M</span></div>
-        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="Dhanushree_VM_Resume.pdf" class="btn resume-btn" download>Download Resume <i class="fas fa-download"></i></a>
-    </nav>
+    <!-- Sticky Navigation Header -->
+    <header class="site-header" id="site-header">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo" aria-label="Dhanushree V M Homepage">
+                <div class="logo-box">&lt;/&gt;</div>
+                <div class="logo-text-group">
+                    <span class="logo-name">Dhanushree V M</span>
+                    <span class="logo-role"><span class="status-indicator-dot"></span>Software Dev</span>
+                </div>
+            </a>
 
-    <div class="container">
-        <!-- Header Section -->
-        <header id="header" class="section hero reveal">
-            <div class="hero-content">
-                <h1 class="hero-title">Dhanushree <span class="highlight">V M</span></h1>
-                <p class="tagline">Aspiring <span class="highlight">Software Developer</span></p>
-                <p class="desc">A passionate developer focused on problem-solving, building scalable applications, and turning ideas into impactful solutions through clean and efficient code.</p>
-                
-                <div class="hero-actions">
-                    <a href="#projects" class="btn primary-btn">View My Work <i class="fas fa-arrow-right"></i></a>
-                    <a href="#contact" class="btn outline-btn">Let's Connect <i class="fas fa-paper-plane"></i></a>
-                </div>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/Dhanushree-1977" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:dhanushreevm63@gmail.com"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-            
-            <div class="hero-code-box">
-                <div class="code-content">
-                    <span class="comment">// Focused on</span><br>
-                    <span class="comment">// Building</span><br>
-                    <span class="comment">// Learning</span><br>
-                    <span class="comment">// Growing</span><br><br>
-                    <span class="keyword">while</span>(<span class="boolean">alive</span>) {<br>
-                    &nbsp;&nbsp;<span class="method">code</span>();<br>
-                    &nbsp;&nbsp;<span class="method">learn</span>();<br>
-                    &nbsp;&nbsp;<span class="method">repeat</span>();<br>
-                    }
-                </div>
-            </div>
-            
-            <div class="hero-image-container">
-                <div class="img-ring">
-                    <img src="images/profile.jpg" alt="Dhanushree V M">
-                </div>
-            </div>
-        </header>
+            <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
 
-        <!-- About Section -->
-        <section id="about" class="section about reveal">
-            <div class="about-grid">
-                <div class="about-left">
-                    <h4 class="sub-title"><i class="fas fa-user-circle"></i> ABOUT ME</h4>
-                    <h2>Turning Ideas Into<br>Impactful <span class="highlight">Solutions</span> ✨</h2>
-                    <p>I am pursuing my Bachelor of Engineering (BE) at Gopalan College of Engineering and Management (CGPA: 7.32).</p>
-                    <p>To secure a position in a reputable organization where I can apply my problem-solving abilities, technical knowledge, and dedication to achieve both personal and organizational growth while contributing effectively to the organization.</p>
-                    <a href="#contact" class="btn primary-btn mt-3">Let's Connect →</a>
-                </div>
-                <div class="about-right">
-                    <div class="info-card">
-                        <h5><i class="fas fa-graduation-cap"></i> Education</h5>
-                        <p>B.E. in Engineering<br>Gopalan College of Engineering and Management<br>CGPA: 7.32</p>
-                    </div>
-                    <div class="info-card">
-                        <h5><i class="fas fa-heart"></i> What I Enjoy</h5>
-                        <p>Software Development, Problem Solving, Machine Learning, and Web Technologies.</p>
-                    </div>
-                    <div class="info-card">
-                        <h5><i class="fas fa-bullseye"></i> Career Goal</h5>
-                        <p>To become a skilled Software Developer and build reliable, impactful software solutions.</p>
-                    </div>
-                </div>
+            <div class="nav-actions">
+                <a href="Dhanushree_VM_Resume.pdf" class="btn btn-nav-resume" id="nav-resume-btn" download>
+                    <i class="fas fa-file-pdf"></i>
+                    <span>Resume</span>
+                </a>
+                <a href="#contact" class="btn btn-nav-contact" id="nav-contact-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Let's Talk</span>
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
-        </section>
+        </div>
+    </header>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section skills reveal">
-            <h4 class="sub-title"><i class="fas fa-laptop-code"></i> MY SKILLS</h4>
-            <div class="skills-container">
-                <!-- Group 1 -->
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-python"></i> <span>Python</span>
+    <main id="main-content">
+        <!-- 1. Hero Section -->
+        <section class="section hero-section" id="hero">
+            <div class="container hero-grid">
+                <!-- Left Column: Bio & CTAs -->
+                <div class="hero-content reveal-item">
+                    <div class="hero-identity-row">
+                        <div class="hero-avatar-ring">
+                            <img src="images/profile.jpg" alt="Dhanushree V M" class="hero-avatar-img">
+                            <span class="avatar-live-indicator" title="Available for Roles"></span>
+                        </div>
+                        <div class="hero-status-stack">
+                            <div class="badge-capsule">
+                                <span class="status-indicator-dot"></span>
+                                <span>B.E. Student @ Gopalan College (VTU)</span>
+                            </div>
+                            <div class="badge-capsule-sub">
+                                <span class="status-indicator-dot"></span>
+                                <span>Available for Roles &bull; Bangalore, Karnataka</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="progress-bar"><div class="progress progress-pink" style="width: 90%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-java"></i> <span>Java</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-cyan" style="width: 80%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-html5"></i> <span>HTML/CSS</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-purple" style="width: 95%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-js"></i> <span>JavaScript</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-pink" style="width: 85%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fas fa-database"></i> <span>SQL & PostgreSQL</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-cyan" style="width: 80%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fas fa-server"></i> <span>Django / REST API</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-purple" style="width: 75%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-git-alt"></i> <span>Git & GitHub</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-pink" style="width: 85%;"></div></div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-header">
-                        <i class="fab fa-docker"></i> <span>Docker</span>
-                    </div>
-                    <div class="progress-bar"><div class="progress progress-cyan" style="width: 60%;"></div></div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section projects reveal">
-            <h4 class="sub-title"><i class="fas fa-rocket"></i> FEATURED PROJECTS</h4>
-            <div class="projects-container">
-                <!-- Project 1 -->
-                <div class="project-box">
-                    <div class="project-icon" style="background: rgba(255, 0, 85, 0.2); color: #ff0055;"><i class="fas fa-chart-line"></i></div>
-                    <h3>YouTube Data Analysis</h3>
-                    <p>Developed a YouTube data analysis system using concepts from Analysis and Design of Algorithms to efficiently process and analyze large datasets of video statistics.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Data Structures</span><span>Excel</span>
-                    </div>
-                    <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="view-btn">View on GitHub →</a>
-                </div>
-                <!-- Project 2 -->
-                <div class="project-box">
-                    <div class="project-icon" style="background: rgba(0, 255, 255, 0.2); color: #00ffff;"><i class="fas fa-brain"></i></div>
-                    <h3>Hakuna Matata</h3>
-                    <p>AI-Based Student Mental Health Analyzer. Developed a web-based application to analyze and monitor students' mental health through an interactive interface.</p>
-                    <div class="tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                    </div>
-                    <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="view-btn">View on GitHub →</a>
-                </div>
-                <!-- Project 3 -->
-                <div class="project-box">
-                    <div class="project-icon" style="background: rgba(181, 0, 255, 0.2); color: #b500ff;"><i class="fas fa-heartbeat"></i></div>
-                    <h3>JeevaRaksha</h3>
-                    <p>AI Based Chatbot For Healthcare. Developed an AI-based multilingual smart health assistant that helps users identify possible health conditions and provides alerts.</p>
-                    <div class="tags">
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                    </div>
-                    <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="view-btn">View on GitHub →</a>
-                </div>
-            </div>
-        </section>
+                    <h1 class="hero-title-main">
+                        Hi, I'm <span class="gradient-text">Dhanushree V M</span>
+                    </h1>
 
-        <!-- Stats Section -->
-        <section class="section stats reveal">
-            <div class="stats-banner">
-                <div class="stat-item">
-                    <h2>3+</h2>
-                    <p>Projects Built</p>
-                </div>
-                <div class="stat-item">
-                    <h2>7.32</h2>
-                    <p>CGPA</p>
-                </div>
-                <div class="stat-item">
-                    <h2>10+</h2>
-                    <p>Technologies & Tools</p>
-                </div>
-                <div class="stat-item">
-                    <h2>∞</h2>
-                    <p>Learning Mindset</p>
-                </div>
-            </div>
-        </section>
+                    <div class="hero-badge-role">
+                        <span>⚡ Aspiring Software Developer &amp; ML Enthusiast</span>
+                    </div>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section contact reveal">
-            <div class="contact-box">
-                <div class="contact-info-left">
-                    <h4 class="sub-title"><i class="fas fa-paper-plane"></i> GET IN TOUCH</h4>
-                    <h2>Let's connect and build something amazing together!</h2>
-                    <p>I'm always open to learning opportunities, collaboration and conversations about technology.</p>
+                    <p class="hero-tagline">
+                        Turning ideas into impactful solutions through clean code, scalable architecture, and intelligent machine learning.
+                    </p>
+
+                    <p class="hero-detailed-bio">
+                        Engineering student passionate about problem-solving, data structures, backend engineering with Python and Java, and AI applications that make a genuine difference in healthcare, education, and analytics.
+                    </p>
+
+                    <div class="hero-info-chips">
+                        <div class="info-chip">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangalore, Karnataka, India</span>
+                        </div>
+                        <div class="info-chip">
+                            <i class="fas fa-envelope"></i>
+                            <span>dhanushreevm63@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-actions-row">
+                        <a href="#projects" class="btn btn-gradient-hero" id="hero-projects-btn">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="Dhanushree_VM_Resume.pdf" class="btn btn-outline-hero" id="hero-download-btn" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin-hero" id="hero-linkedin-btn">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-quick-profiles">
+                        <span class="quick-profiles-label">Quick Connect:</span>
+                        <div class="quick-icons-group">
+                            <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank" rel="noopener noreferrer" class="quick-icon-btn" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="quick-icon-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:dhanushreevm63@gmail.com" class="quick-icon-btn" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-info-right">
-                    <div class="contact-detail">
-                        <i class="fas fa-envelope"></i> dhanushreevm63@gmail.com
+
+                <!-- Right Column: Interactive Code Sandbox Mockup -->
+                <div class="hero-visual reveal-item">
+                    <div class="tech-tags-top-row">
+                        <span class="floating-tech-pill tech-pill-pink">&lt;/&gt; Python &amp; Java</span>
+                        <span class="floating-tech-pill tech-pill-cyan">📊 Algorithms &amp; ML</span>
+                        <span class="floating-tech-pill tech-pill-purple">☁️ AWS &amp; Docker</span>
                     </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-phone-alt"></i> +91 9880616737
+
+                    <!-- Code Editor Sandbox Window -->
+                    <div class="code-editor-mockup" id="code-sandbox">
+                        <div class="editor-titlebar">
+                            <div class="window-controls">
+                                <span class="win-dot dot-close"></span>
+                                <span class="win-dot dot-min"></span>
+                                <span class="win-dot dot-max"></span>
+                            </div>
+                            <div class="editor-filename" id="editor-filename">youtube_analytics.py</div>
+                            <div class="editor-actions">
+                                <button class="btn-editor-run" id="btn-run-test" title="Simulate Execution">
+                                    <span class="play-icon">&#9654;</span> Run Test
+                                </button>
+                                <button class="btn-editor-copy" id="btn-copy-code" title="Copy Snippet">
+                                    <i class="far fa-copy"></i>
+                                    <span id="copy-text">Copy</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="editor-tabs-bar">
+                            <button class="editor-tab active" data-tab="analytics">
+                                <span>&gt;_</span> Python &amp; Algorithms
+                            </button>
+                            <button class="editor-tab" data-tab="healthcare">
+                                <span>🩺</span> Healthcare AI
+                            </button>
+                            <button class="editor-tab" data-tab="mentalhealth">
+                                <span>🧠</span> Mental Health
+                            </button>
+                        </div>
+
+                        <div class="editor-code-body">
+                            <pre class="code-pre"><code id="code-display"><span class="code-comment"># YouTube Video Dataset Optimization (ADA Algorithms)</span>
+<span class="code-keyword">import</span> <span class="code-lib">pandas</span> <span class="code-keyword">as</span> <span class="code-lib">pd</span>
+<span class="code-keyword">from</span> <span class="code-lib">collections</span> <span class="code-keyword">import</span> defaultdict
+
+<span class="code-keyword">def</span> <span class="code-func">analyze_video_engagement</span>(dataset_path: <span class="code-type">str</span>):
+    df = pd.read_excel(dataset_path)
+    <span class="code-comment"># Efficient top-K engagement computation via Max-Heap</span>
+    stats = defaultdict(<span class="code-keyword">lambda</span>: {<span class="code-string">"views"</span>: 0, <span class="code-string">"likes"</span>: 0})
+    <span class="code-keyword">for</span> _, row <span class="code-keyword">in</span> df.iterrows():
+        stats[row[<span class="code-string">'category'</span>]][<span class="code-string">'views'</span>] += row[<span class="code-string">'views'</span>]
+        stats[row[<span class="code-string">'category'</span>]][<span class="code-string">'likes'</span>] += row[<span class="code-string">'likes'</span>]
+    <span class="code-keyword">return</span> sorted(stats.items(), key=<span class="code-keyword">lambda</span> x: x[1][<span class="code-string">'views'</span>], reverse=<span class="code-keyword">True</span>)
+
+results = analyze_video_engagement(<span class="code-string">'youtube_data.xlsx'</span>)
+print(<span class="code-string">f"Top Category: {results[0][0]} with {results[0][1]['views']:,} views"</span>)</code></pre>
+                        </div>
+
+                        <!-- Live simulation drawer -->
+                        <div class="editor-output-drawer" id="editor-output" style="display: none;">
+                            <div class="output-header">
+                                <span>Execution Simulation Output (23.4ms)</span>
+                                <button class="output-close-btn" id="close-output">&times;</button>
+                            </div>
+                            <div class="output-body">
+                                <code>[SUCCESS] Processed 100,000 video records in 23.4ms | Top: "Education" (14,892,100 views)</code>
+                            </div>
+                        </div>
+
+                        <div class="editor-statusbar">
+                            <div class="status-left">
+                                <span class="status-indicator-dot"></span>
+                                <span>Interactive Code Sandbox</span>
+                            </div>
+                            <div class="status-right">
+                                <span>UTF-8 &bull; Python 3.12</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-map-marker-alt"></i> Bangalore, Karnataka
-                    </div>
-                    <div class="social-icons-contact">
-                        <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/Dhanushree-1977" target="_blank"><i class="fab fa-github"></i></a>
+
+                    <!-- 3-Card Bottom Metrics Row -->
+                    <div class="hero-stats-cards-grid">
+                        <div class="stat-glass-card">
+                            <div class="stat-number-lg stat-color-pink">7.32 / 10</div>
+                            <div class="stat-title-label">Engineering CGPA</div>
+                        </div>
+                        <div class="stat-glass-card">
+                            <div class="stat-number-lg stat-color-purple">8+</div>
+                            <div class="stat-title-label">Certifications</div>
+                        </div>
+                        <div class="stat-glass-card">
+                            <div class="stat-number-lg stat-color-cyan">Software &amp; AI</div>
+                            <div class="stat-title-label">Core Focus</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <div class="footer-bottom">
-                <div class="logo"><span class="code-icon">&lt;/&gt;</span> Dhanushree <span class="highlight">V M</span></div>
-                <p>&copy; 2024 Dhanushree V M. All rights reserved.</p>
-                <a href="#header">Back to Top ↑</a>
+        <!-- 2. About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">01. Overview</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">Bridging strong problem-solving fundamentals with scalable software and machine learning.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card-main glass-panel reveal-item">
+                        <h3 class="about-headline">Turning Ideas Into Reliable, Impactful Solutions ✨</h3>
+                        <p class="about-text">
+                            I am pursuing my Bachelor of Engineering (BE) at Gopalan College of Engineering and Management, affiliated with VTU. My technical interest centers on software engineering, algorithms, full-stack web applications, and artificial intelligence.
+                        </p>
+                        <p class="about-text">
+                            My career objective is to join a forward-thinking organization where I can apply my analytical thinking, technical expertise, and collaborative spirit to build software systems that create measurable real-world impact.
+                        </p>
+
+                        <div class="about-philosophy">
+                            <div class="philosophy-item">
+                                <div class="phi-icon"><i class="fas fa-code"></i></div>
+                                <div>
+                                    <h4 class="phi-title">Clean Code &amp; Strong Fundamentals</h4>
+                                    <p class="phi-desc">Applying solid Data Structures and Algorithms (ADA) principles to build robust, maintainable, and high-performance software.</p>
+                                </div>
+                            </div>
+                            <div class="philosophy-item">
+                                <div class="phi-icon"><i class="fas fa-brain"></i></div>
+                                <div>
+                                    <h4 class="phi-title">Machine Learning &amp; AI Solutions</h4>
+                                    <p class="phi-desc">Developing intelligent systems including natural language symptom screening and mental health wellness analyzers.</p>
+                                </div>
+                            </div>
+                            <div class="philosophy-item">
+                                <div class="phi-icon"><i class="fas fa-server"></i></div>
+                                <div>
+                                    <h4 class="phi-title">Cloud &amp; Modern Web Architectures</h4>
+                                    <p class="phi-desc">Building responsive web frontends, REST APIs with Django, containerizing with Docker, and leveraging AWS cloud services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats-grid reveal-item">
+                        <div class="about-photo-card glass-panel">
+                            <div class="photo-frame">
+                                <img src="images/profile.jpg" alt="Dhanushree V M" class="about-portrait-img">
+                                <div class="photo-overlay-badge">
+                                    <span class="status-indicator-dot"></span>
+                                    <span>Software Developer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stat-card glass-panel">
+                            <span class="stat-label">Current Focus</span>
+                            <span class="stat-value">Python, Java &amp; AI</span>
+                        </div>
+                        <div class="stat-card glass-panel">
+                            <span class="stat-label">Degree</span>
+                            <span class="stat-value">B.E. (CGPA: 7.32)</span>
+                        </div>
+                        <div class="stat-card glass-panel">
+                            <span class="stat-label">Institution</span>
+                            <span class="stat-value">Gopalan College (VTU)</span>
+                        </div>
+
+                        <div class="contact-quick-card glass-panel">
+                            <h4 class="card-mini-title">Direct Inquiries</h4>
+                            <div class="quick-contact-list">
+                                <a href="mailto:dhanushreevm63@gmail.com" class="qc-link">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>dhanushreevm63@gmail.com</span>
+                                </a>
+                                <a href="tel:+919880616737" class="qc-link">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>+91 9880616737</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank" rel="noopener noreferrer" class="qc-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </div>
+        </section>
 
-    <script>
-        // Intersection Observer for Scroll Reveal
-        const revealOptions = {
-            threshold: 0.1,
-            rootMargin: "0px 0px -50px 0px"
-        };
-        const revealOnScroll = new IntersectionObserver(function(entries, observer) {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) return;
-                entry.target.classList.add("active");
-                observer.unobserve(entry.target);
-            });
-        }, revealOptions);
-        document.querySelectorAll('.reveal').forEach(reveal => {
-            revealOnScroll.observe(reveal);
-        });
+        <!-- 3. Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">02. Expertise</span>
+                    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">A curated breakdown of my programming languages, frameworks, cloud services, and tools.</p>
+                    <div class="section-divider"></div>
+                </div>
 
-        // Smooth scrolling & mobile menu auto-close
-        const mobileToggle = document.getElementById('mobile-toggle');
-        const navLinks = document.getElementById('nav-links');
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card glass-panel reveal-item">
+                        <div class="category-header">
+                            <span class="category-indicator"></span>
+                            <h3 class="category-title">Programming Languages</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-python" style="color:#38bdf8;"></i> Python</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-pink" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-java" style="color:#f97316;"></i> Java</span>
+                                    <span class="skill-pct">82%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-purple" style="width: 82%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fas fa-code" style="color:#00e1ff;"></i> C Language</span>
+                                    <span class="skill-pct">75%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-cyan" style="width: 75%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
 
-        if (mobileToggle && navLinks) {
-            mobileToggle.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                const icon = mobileToggle.querySelector('i');
-                if (icon) {
-                    icon.classList.toggle('fa-bars');
-                    icon.classList.toggle('fa-times');
-                }
-            });
-        }
+                    <!-- Web & Frameworks -->
+                    <div class="skill-category-card glass-panel reveal-item">
+                        <div class="category-header">
+                            <span class="category-indicator"></span>
+                            <h3 class="category-title">Web &amp; Frameworks</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-html5" style="color:#ef4444;"></i> HTML5 &amp; CSS3</span>
+                                    <span class="skill-pct">95%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-pink" style="width: 95%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-js" style="color:#eab308;"></i> JavaScript (ES6+)</span>
+                                    <span class="skill-pct">85%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-cyan" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fas fa-server" style="color:#10b981;"></i> Django &amp; REST APIs</span>
+                                    <span class="skill-pct">78%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-purple" style="width: 78%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
 
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-                if (navLinks && navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
-                    const icon = mobileToggle ? mobileToggle.querySelector('i') : null;
-                    if (icon) {
-                        icon.classList.add('fa-bars');
-                        icon.classList.remove('fa-times');
-                    }
-                }
-            });
-        });
-    </script>
+                    <!-- Database & Cloud -->
+                    <div class="skill-category-card glass-panel reveal-item">
+                        <div class="category-header">
+                            <span class="category-indicator"></span>
+                            <h3 class="category-title">Database &amp; Cloud</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fas fa-database" style="color:#38bdf8;"></i> SQL &amp; PostgreSQL</span>
+                                    <span class="skill-pct">85%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-cyan" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-aws" style="color:#f59e0b;"></i> AWS (EC2, VPC, Lambda)</span>
+                                    <span class="skill-pct">75%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-pink" style="width: 75%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-docker" style="color:#0284c7;"></i> Docker Containerization</span>
+                                    <span class="skill-pct">70%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-purple" style="width: 70%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & Tools -->
+                    <div class="skill-category-card glass-panel reveal-item">
+                        <div class="category-header">
+                            <span class="category-indicator"></span>
+                            <h3 class="category-title">AI, Machine Learning &amp; Tools</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fas fa-brain" style="color:#ec4899;"></i> Machine Learning with Python</span>
+                                    <span class="skill-pct">82%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-pink" style="width: 82%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fas fa-comment-dots" style="color:#a855f7;"></i> Natural Language Processing</span>
+                                    <span class="skill-pct">78%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-purple" style="width: 78%;"></div></div>
+                            </div>
+                            <div class="skill-badge-item">
+                                <div class="skill-badge-info">
+                                    <span class="skill-name"><i class="fab fa-git-alt" style="color:#f43f5e;"></i> Git &amp; GitHub</span>
+                                    <span class="skill-pct">88%</span>
+                                </div>
+                                <div class="skill-meter"><div class="skill-fill fill-cyan" style="width: 88%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">03. Portfolio</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">Engineering systems spanning algorithmic data analytics, mental wellness applications, and AI healthcare triage.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card glass-panel reveal-item">
+                        <div class="project-card-header">
+                            <div class="project-badge-row">
+                                <span class="project-tag">Data Science &amp; ADA</span>
+                                <span class="project-status"><i class="fas fa-check-circle"></i> Completed</span>
+                            </div>
+                            <h3 class="project-title">YouTube Data Analysis</h3>
+                        </div>
+
+                        <p class="project-description">
+                            Developed a high-performance YouTube video statistics analytics system utilizing principles from Analysis and Design of Algorithms (ADA) to process large datasets of video engagement metrics, likes, and trends.
+                        </p>
+
+                        <div class="project-highlights-box">
+                            <h4 class="highlights-title">Core Innovations:</h4>
+                            <ul class="highlights-list">
+                                <li><span class="bullet-glow">&bull;</span> Built fast category-level aggregation pipelines for extensive video data.</li>
+                                <li><span class="bullet-glow">&bull;</span> Applied priority queue and sorting algorithms for top-engagement rankings.</li>
+                                <li><span class="bullet-glow">&bull;</span> Integrated automated spreadsheet data ingestion and visualization metrics.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-footer">
+                            <div class="tech-tags-group">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Data Structures</span>
+                                <span class="tech-tag">Microsoft Excel</span>
+                                <span class="tech-tag">Algorithms</span>
+                            </div>
+                            <div class="project-links-row">
+                                <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="project-btn">
+                                    <span>View on GitHub</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-panel reveal-item">
+                        <div class="project-card-header">
+                            <div class="project-badge-row">
+                                <span class="project-tag">AI &amp; Web Platform</span>
+                                <span class="project-status"><i class="fas fa-check-circle"></i> Completed</span>
+                            </div>
+                            <h3 class="project-title">Hakuna Matata — Student Mental Health Analyzer</h3>
+                        </div>
+
+                        <p class="project-description">
+                            An interactive web application designed to evaluate and monitor students' psychological wellbeing, offering a confidential interface to calculate stress levels and receive actionable mental health recommendations.
+                        </p>
+
+                        <div class="project-highlights-box">
+                            <h4 class="highlights-title">Core Innovations:</h4>
+                            <ul class="highlights-list">
+                                <li><span class="bullet-glow">&bull;</span> Multi-factor wellness assessment algorithm combining stress, sleep, and academics.</li>
+                                <li><span class="bullet-glow">&bull;</span> Responsive, empathetic UI with instant interactive visual feedback.</li>
+                                <li><span class="bullet-glow">&bull;</span> Integrated self-care suggestions and campus mental wellness resources.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-footer">
+                            <div class="tech-tags-group">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">AI Concepts</span>
+                            </div>
+                            <div class="project-links-row">
+                                <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="project-btn">
+                                    <span>View on GitHub</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass-panel reveal-item">
+                        <div class="project-card-header">
+                            <div class="project-badge-row">
+                                <span class="project-tag">Healthcare AI &amp; NLP</span>
+                                <span class="project-status"><i class="fas fa-check-circle"></i> Completed</span>
+                            </div>
+                            <h3 class="project-title">JeevaRaksha — AI Healthcare Assistant</h3>
+                        </div>
+
+                        <p class="project-description">
+                            An AI-based multilingual smart healthcare chatbot assistant that aids patients in identifying potential medical conditions based on entered symptoms, providing preliminary guidance and emergency alerts.
+                        </p>
+
+                        <div class="project-highlights-box">
+                            <h4 class="highlights-title">Core Innovations:</h4>
+                            <ul class="highlights-list">
+                                <li><span class="bullet-glow">&bull;</span> Real-time critical symptom recognition and emergency dispatch alerts.</li>
+                                <li><span class="bullet-glow">&bull;</span> Multilingual communication interface supporting diverse linguistic backgrounds.</li>
+                                <li><span class="bullet-glow">&bull;</span> Structured conversational symptom triage flow with safety guardrails.</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech-footer">
+                            <div class="tech-tags-group">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">HTML5 / CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links-row">
+                                <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="project-btn">
+                                    <span>View on GitHub</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">04. Academic</span>
+                    <h2 class="section-title">Education <span class="gradient-text">Journey</span></h2>
+                    <p class="section-subtitle">Academic foundations in Engineering and Pre-University Studies.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card glass-panel reveal-item">
+                        <div class="edu-card-top">
+                            <div class="edu-score-badge">
+                                <span class="score-type">CGPA</span>
+                                <span class="score-val">7.32 / 10.0</span>
+                            </div>
+                            <span class="edu-period">2021 — Present</span>
+                        </div>
+                        <h3 class="edu-degree">Bachelor of Engineering (B.E.)</h3>
+                        <h4 class="edu-institution"><i class="fas fa-university"></i> Gopalan College of Engineering and Management</h4>
+                        <p class="edu-desc">
+                            Affiliated with Visvesvaraya Technological University (VTU). Key coursework includes Data Structures and Algorithms, Object-Oriented Programming (Java/Python), Database Management Systems (DBMS), Operating Systems, Software Engineering, and Machine Learning.
+                        </p>
+                    </div>
+
+                    <div class="education-card glass-panel reveal-item">
+                        <div class="edu-card-top">
+                            <div class="edu-score-badge">
+                                <span class="score-type">Score</span>
+                                <span class="score-val">66.00%</span>
+                            </div>
+                            <span class="edu-period">2022 — 2023</span>
+                        </div>
+                        <h3 class="edu-degree">Pre-University Course (PUC)</h3>
+                        <h4 class="edu-institution"><i class="fas fa-school"></i> Sri Saraswati Vidya Niketan Independent PU College</h4>
+                        <p class="edu-desc">
+                            Completed higher secondary coursework with comprehensive analytical grounding in science, mathematics, and computing fundamentals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Certifications Section -->
+        <section class="section certifications-section" id="certifications">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">05. Credentials</span>
+                    <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+                    <p class="section-subtitle">Verified credentials in Machine Learning, Generative AI, Cloud Computing, and Programming.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- IBM / Coursera -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-ibm">IBM / Coursera</span>
+                            <span class="cert-category-pill">AI &amp; ML</span>
+                        </div>
+                        <h3 class="cert-title">Machine Learning with Python</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>IBM / Coursera</span>
+                        </div>
+                        <a href="assets/certificates/Coursera ML certificate.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- EduBridge -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-edubridge">EduBridge</span>
+                            <span class="cert-category-pill">Generative AI</span>
+                        </div>
+                        <h3 class="cert-title">Certification in Learn Generative AI</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>EduBridge Learning</span>
+                        </div>
+                        <a href="assets/certificates/EBEON1124953872(GEN AI certificate).pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- AWS EC2 -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-aws">AWS</span>
+                            <span class="cert-category-pill">Cloud Compute</span>
+                        </div>
+                        <h3 class="cert-title">Introduction to Amazon EC2</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>AWS Skill Builder</span>
+                        </div>
+                        <a href="assets/certificates/Introduction to amazon EC2.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- AWS VPC -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-aws">AWS</span>
+                            <span class="cert-category-pill">Cloud Networking</span>
+                        </div>
+                        <h3 class="cert-title">Introduction to Amazon VPC</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>AWS Skill Builder</span>
+                        </div>
+                        <a href="assets/certificates/introduction to amazon vpc.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- 3SVK Excellence -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-3svk">3SVK</span>
+                            <span class="cert-category-pill">Cloud Challenge</span>
+                        </div>
+                        <h3 class="cert-title">Certificate of Excellence — Cloud Innovation</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>National Cloud Innovation Challenge</span>
+                        </div>
+                        <a href="assets/certificates/Certificate of excellence.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- 3SVK Participation -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-3svk">3SVK</span>
+                            <span class="cert-category-pill">Phase 2 Qualifier</span>
+                        </div>
+                        <h3 class="cert-title">Certificate of Participation — Phase 2</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>3SVK Cloud Innovation</span>
+                        </div>
+                        <a href="assets/certificates/3SVK Certification of participation.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Tata Crucible -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-tata">Tata Group</span>
+                            <span class="cert-category-pill">Campus Quiz</span>
+                        </div>
+                        <h3 class="cert-title">TATA Crucible Campus Quiz 2025</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>Tata Crucible Campus Quiz</span>
+                        </div>
+                        <a href="assets/certificates/Tata certificate.pdf" target="_blank" class="cert-action-link">
+                            <span>View Certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <!-- Infosys -->
+                    <div class="cert-card glass-panel reveal-item">
+                        <div class="cert-card-header">
+                            <span class="cert-badge-logo badge-infosys">Infosys</span>
+                            <span class="cert-category-pill">Core Java</span>
+                        </div>
+                        <h3 class="cert-title">Java Programming Fundamentals</h3>
+                        <div class="cert-issuer">
+                            <i class="fas fa-award"></i>
+                            <span>Infosys Springboard</span>
+                        </div>
+                        <a href="#contact" class="cert-action-link">
+                            <span>Verified Credential</span>
+                            <i class="fas fa-check"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Leadership & Achievements Section -->
+        <section class="section leadership-section" id="achievements">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">06. Recognition</span>
+                    <h2 class="section-title">Achievements &amp; <span class="gradient-text">Milestones</span></h2>
+                    <p class="section-subtitle">Competitive challenges, national hackathon recognitions, and collegiate initiatives.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="leadership-grid">
+                    <div class="leadership-card glass-panel reveal-item">
+                        <div class="leadership-header">
+                            <div class="lead-icon-box">🏆</div>
+                            <div>
+                                <span class="lead-tenure">Top 150 Nationwide</span>
+                                <h3 class="lead-role">National Finalist — Team InnoSpark</h3>
+                                <h4 class="lead-org">National Cloud Innovation Challenge by 3SVK</h4>
+                            </div>
+                        </div>
+                        <p class="lead-description">
+                            Competed against hundreds of collegiate teams nationwide in architecting scalable cloud solutions. Advanced through Phase 1 and Phase 2 into the Top 150 National Finalists, receiving a Certificate of Merit.
+                        </p>
+                        <div class="lead-skills-tags">
+                            <span class="lead-tag">Cloud Architecture</span>
+                            <span class="lead-tag">Team Collaboration</span>
+                            <span class="lead-tag">Rapid Prototyping</span>
+                            <span class="lead-tag">Problem Solving</span>
+                        </div>
+                    </div>
+
+                    <div class="leadership-card glass-panel reveal-item">
+                        <div class="leadership-header">
+                            <div class="lead-icon-box">💡</div>
+                            <div>
+                                <span class="lead-tenure">Campus Recognition</span>
+                                <h3 class="lead-role">TATA Crucible Campus Quiz Participant</h3>
+                                <h4 class="lead-org">Tata Group Competitive Business &amp; Tech Quiz</h4>
+                            </div>
+                        </div>
+                        <p class="lead-description">
+                            Represented Gopalan College of Engineering and Management in one of India's most prestigious collegiate knowledge quizzes, testing industry awareness, business dynamics, and technological innovation.
+                        </p>
+                        <div class="lead-skills-tags">
+                            <span class="lead-tag">Business &amp; Tech Awareness</span>
+                            <span class="lead-tag">Analytical Thinking</span>
+                            <span class="lead-tag">Speed &amp; Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <span class="section-tag">07. Connect</span>
+                    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                    <p class="section-subtitle">Interested in discussing software engineering opportunities, projects, or collaborations? Feel free to reach out!</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information Cards -->
+                    <div class="contact-cards-stack reveal-item">
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="info-body">
+                                <span class="info-label">Email Address</span>
+                                <a href="mailto:dhanushreevm63@gmail.com" class="info-value">dhanushreevm63@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="info-body">
+                                <span class="info-label">Phone Number</span>
+                                <a href="tel:+919880616737" class="info-value">+91 9880616737</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-body">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Bangalore, Karnataka, India</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="info-body">
+                                <span class="info-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/dhanushree-v-m-7681a932a" target="_blank" rel="noopener noreferrer" class="info-value">linkedin.com/in/dhanushree-v-m</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i class="fab fa-github"></i></div>
+                            <div class="info-body">
+                                <span class="info-label">GitHub</span>
+                                <a href="https://github.com/Dhanushree-1977" target="_blank" rel="noopener noreferrer" class="info-value">github.com/Dhanushree-1977</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Contact Form -->
+                    <div class="contact-form-panel glass-panel reveal-item">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Your Name</label>
+                                <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Your Email</label>
+                                <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject" class="form-label">Subject</label>
+                                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Software Developer Opportunity">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message</label>
+                                <textarea id="contact-message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <div class="alert-banner" id="form-alert">
+                                <span id="alert-icon"></span>
+                                <span id="alert-message"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-submit" id="contact-submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="brand-logo">
+                <div class="logo-box">&lt;/&gt;</div>
+                <div class="logo-text-group">
+                    <span class="logo-name">Dhanushree V M</span>
+                    <span class="logo-role">Software Developer</span>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2026 Dhanushree V M. Built with clean code &amp; passion.</p>
+            <a href="#hero" class="footer-top-btn">
+                <span>Back to Top</span>
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>

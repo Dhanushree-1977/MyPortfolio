@@ -49,3 +49,9 @@ tmp/
 temp/
 *.tmp
 *.log
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
