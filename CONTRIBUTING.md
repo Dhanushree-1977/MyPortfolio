@@ -9,8 +9,8 @@ Thank you for your interest in contributing to my portfolio website!
 
 2. **Clone your Fork**:
    ```bash
-   git clone https://github.com/<your-username>/CodeSoftInternship.git
-   cd CodeSoftInternship
+   git clone https://github.com/<your-username>/MyPortfolio.git
+   cd MyPortfolio
    ```
 
 3. **Create a Feature Branch**:
@@ -34,4 +34,4 @@ Thank you for your interest in contributing to my portfolio website!
 
 ## Suggestions and Bug Reports
 
-If you discover any bugs or have suggestions for design improvements, feel free to [open an issue](https://github.com/Dhanushree-1977/CodeSoftInternship/issues).
+If you discover any bugs or have suggestions for design improvements, feel free to [open an issue](https://github.com/Dhanushree-1977/MyPortfolio/issues).

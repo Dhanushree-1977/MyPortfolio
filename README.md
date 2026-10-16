@@ -7,7 +7,7 @@
   </p>
 
   <p align="center">
-    <a href="https://dhanushree-1977.github.io/CodeSoftInternship/" target="_blank">
+    <a href="https://dhanushree-1977.github.io/MyPortfolio/" target="_blank">
       <img src="https://img.shields.io/badge/Live%20Demo-View%20Portfolio-f21d8b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo">
     </a>
     <a href="https://github.com/Dhanushree-1977" target="_blank">
@@ -142,8 +142,8 @@ You can run this project locally without any complex build tools or dependencies
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Dhanushree-1977/CodeSoftInternship.git
-   cd CodeSoftInternship
+   git clone https://github.com/Dhanushree-1977/MyPortfolio.git
+   cd MyPortfolio
    ```
 
 2. **Open with any modern web browser:**
@@ -163,13 +163,13 @@ You can run this project locally without any complex build tools or dependencies
 This repository is configured with a GitHub Actions workflow (`.github/workflows/deploy.yml`) for automated deployment.
 
 To enable GitHub Pages on your repository:
-1. Go to your repository on GitHub: `https://github.com/Dhanushree-1977/CodeSoftInternship`.
+1. Go to your repository on GitHub: `https://github.com/Dhanushree-1977/MyPortfolio`.
 2. Click **Settings** → **Pages** (under the "Code and automation" sidebar).
 3. Under **Build and deployment** → **Source**, select **GitHub Actions**.
 4. Every push to the `main` branch will automatically build and publish your site!
 5. Your live site will be accessible at:
    ```
-   https://dhanushree-1977.github.io/CodeSoftInternship/
+   https://dhanushree-1977.github.io/MyPortfolio/
    ```
 
 ---
