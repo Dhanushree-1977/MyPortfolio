@@ -87,9 +87,9 @@ MyPortfolio/
 │       └── deploy.yml          # Automated CI/CD deployment to GitHub Pages
 ├── assets/
 │   ├── certificates/           # Verified course & training certifications
-│   │   ├── aws certificate-3.pdf
-│   │   ├── aws certificate-4.pdf
+│   │   ├── 3SVK Certification of participation.pdf
 │   │   ├── Certificate of excellence.pdf
+│   │   ├── certificate.pdf
 │   │   ├── Coursera ML certificate.pdf
 │   │   ├── EBEON1124953872(GEN AI certificate).pdf
 │   │   └── Tata certificate.pdf
@@ -131,11 +131,12 @@ MyPortfolio/
 
 This portfolio includes verified certifications demonstrating continuous learning and expertise:
 
-- **Machine Learning** — Coursera
-- **Generative AI** — Professional Certification
-- **Cloud Computing & Architecture** — AWS EC2 & Amazon VPC
-- **Data Visualization & Analytics** — Tata Group
-- **Certificate of Excellence & Participation** — Hackathons & Workshops
+- **Machine Learning with Python** — Coursera / IBM
+- **Learn Generative AI** — EduBridge Professional Certification
+- **National Cloud Innovation Challenge** — 3SVK Certificate of Excellence & Finalist
+- **Phase 2 National Cloud Challenge** — 3SVK Certificate of Participation
+- **TATA Crucible Campus Quiz 2025** — Tata Group
+- **Java Programming Fundamentals** — Infosys Springboard
 
 ---
 
